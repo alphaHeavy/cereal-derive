@@ -18,7 +18,7 @@ Description: This package provides deriveGet and derivePut which
 Library
     Build-Depends: base < 5,
                    cereal < 0.4,
-                   ghc-prim < 0.3
+                   ghc-prim < 0.4
     Ghc-Prof-Options: -prof -auto-all -caf-all -rtsopts
     Exposed-Modules: Data.Serialize.Derive
     Exposed: True
